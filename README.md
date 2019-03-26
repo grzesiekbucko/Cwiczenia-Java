@@ -40,43 +40,46 @@ które chce edytować (istnieje możliwość edycji wszystkich pól poza płcią
 edytowane tylko w przypadku kobiet).
 6. Dodatkowe funkcje – pozycja 6 w menu.
 Wybranie tej opcji powoduje wyświetlenie nowego menu z poniższymi opcjami (funkcjonalnościami):
-a) Obliczanie liczby pracowników z pensją nie mniejszą niż podana przez użytkownika // funkcja z parametrem
+
+   a) Obliczanie liczby pracowników z pensją nie mniejszą niż podana przez użytkownika // funkcja z parametrem
 float – podana pensja.
-b) Obliczanie średniej płacy w dziale (numer działu podaje użytkownik) // funkcja z parametrem int – podany
+   b) Obliczanie średniej płacy w dziale (numer działu podaje użytkownik) // funkcja z parametrem int – podany
 numer działu.
-c) Wyświetlanie największych pensji z wszystkich kobiety i wszystkich mężczyzny // procedura bez
+   c) Wyświetlanie największych pensji z wszystkich kobiety i wszystkich mężczyzny // procedura bez
 dodatkowych parametrów.
-*d) Wyświetlenie wszystkich działów (tylko tych, które aktualnie mają pracowników) i informacji, czy większość
+   *d) Wyświetlenie wszystkich działów (tylko tych, które aktualnie mają pracowników) i informacji, czy większość
 pracowników jest kobietami, mężczyznami, czy ich liczba rozkłada się równomiernie. Do tego, przy każdym
 dziale wyświetlana zostaje średnia pensja w tym dziale (można skorzystać z funkcji napisanej na potrzeby
 podpunktu b) // procedura bez dodatkowych parametrów.
-e) Wyświetlenie stosunku średniej płacy kobiet do średniej płacy mężczyzn // funkcja bez dodatkowych
+   e) Wyświetlenie stosunku średniej płacy kobiet do średniej płacy mężczyzn // funkcja bez dodatkowych
 parametrów.
-f) Zwiększanie pensji wszystkim pracownikom o 10 procent oraz dodatkowo za specjalne cechy (zgodnie z
+   f) Zwiększanie pensji wszystkim pracownikom o 10 procent oraz dodatkowo za specjalne cechy (zgodnie z
 metodą obiektu).
-*g) Zwiększenie pensji wszystkim pracownikom o kwotę podaną przez użytkownika, wyświetlona zostaje suma
+   *g) Zwiększenie pensji wszystkim pracownikom o kwotę podaną przez użytkownika, wyświetlona zostaje suma
 podwyżek oraz stosunek podwyżek dla kobiet i mężczyzn. // funkcja z parametrem float – podana kwota
 podwyżki. Suma podwyżek wyświetlona zostaje w funkcji, natomiast zwrócony zostaje wymagany stosunek.
-*h) Sortowanie pracowników (w pliku) według nazwiska // procedura z parametrem booelan – true, to rosnącą;
+   *h) Sortowanie pracowników (w pliku) według nazwiska // procedura z parametrem booelan – true, to rosnącą;
 false, to malejąco.
-*i) Sortowanie pracowników (w pliku) według wysokości ich pensji. // procedura z parametrem booelan – true, to
+   *i) Sortowanie pracowników (w pliku) według wysokości ich pensji. // procedura z parametrem booelan – true, to
 rosnącą; false, to malejąco.
 7. Dodatkowe funkcje dla plików tekstowych – pozycja 7 w menu.
 Wybranie tej opcji powoduje eksport danych do pliku tekstowego i wyświetlenie nowego menu z poniższymi
 opcjami (funkcjonalnościami):
-a) Wyświetlenie danych (linii z pliku) o osobie z najdłuższym nazwiskiem. Jeśli kilka osób ma taką samą długość
+
+   a) Wyświetlenie danych (linii z pliku) o osobie z najdłuższym nazwiskiem. Jeśli kilka osób ma taką samą długość
 nazwiska wystarczy wyświetlić jedną. // procedura bez dodatkowych parametrów.
-b) Obliczenie średniego wieku osób posiadających dzieci. // funkcja bez dodatkowych parametrów.
-c) Zakodowanie niektórych danych w pliku (tym samym – tekstowym) w ten sposób, że nazwisko wpisane
+   b) Obliczenie średniego wieku osób posiadających dzieci. // funkcja bez dodatkowych parametrów.
+   c) Zakodowanie niektórych danych w pliku (tym samym – tekstowym) w ten sposób, że nazwisko wpisane
 zostaje na zasadzie:
 N********i zamiast Nowakowski
 Należy zakodować nazwiska tylko tych osób, których zarobek jest niższy od średniego zarobku wszystkich
 pracowników.
-*d) Utworzenie pliku 'pracownicy.html' (tekstowy), w którym na podstawie pliku tekstowego o pracownikach
+   *d) Utworzenie pliku 'pracownicy.html' (tekstowy), w którym na podstawie pliku tekstowego o pracownikach
 tworzona jest tabela zapisana w HTML w taki sposób, na początku nazwane zostają nagłówki (w apostrofach
 wyróżnione zostały kolejne kolumny):
 'Nazwisko' 'Imię' 'Płeć' 'Numer działu' 'Płaca' 'Wiek'
 a później odpowiednio wpisane zostają wszystkie dane. // procedura bez dodatkowych parametrów.
+
 8. Informacja o programie – pozycja 8 w menu.
 9. W chwili uruchomienia (i tylko w tej chwili) należy przyjąć, że nazwa pliku obiektów (elementowego) to
 „baza.dat”, ale użytkownik poprzez kolejną opcję (9 pozycja menu) może wprowadzić własną nazwę pliku.
